@@ -1,3 +1,27 @@
+<<<<<<< HEAD
+---
+title: "資料"
+author: "Che"
+date: "2021/1/29"
+output:
+  html_document:
+    css: "style.css"
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# 資料科學是什麼
+
+倘若你現在獲得了一份關於父母親身高與其配對的小孩的身高的資料，或者是有了吃了不同藥物前後睡眠時間改變的資料。這些資料都蘊含著大量的資訊，如何透過資料當中的大量資訊以獲取知識是資料科學的首要目的。
+
+資料分析的第一步是先了解資料的構成與屬性，一份資料集/資料表 (data set/data frame) 是一個二維表格，直行由變項 (variable) 所構成、橫列由觀察值 (observation) 所構成，直行與橫列的交點為一資料值 (data value)。變項是指所對應的資料值描述的是觀察值的什麼特性。不同觀察值代表為不同次測量的結果，彼此之間以辨識碼 (identification number, ID) 相互區分。
+
+一種常見的資料表以不同個體來區分不同觀察值，不同變項代表不同的特性，故對於同一個人而言，不同的變項所對應的資料值即代表該個體在不同變項上的測量結果。
+
+=======
 ---
 title: "資料"
 author: "Che"
@@ -39,3 +63,4 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+>>>>>>> main
