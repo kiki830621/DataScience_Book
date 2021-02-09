@@ -1,5 +1,4 @@
-"# DataScience_Book" 
-# DataScience_Book
+
 
 
 Part1: 統計推論
@@ -27,6 +26,9 @@ Chapter6 區間估計
 *Bootstrap
 
 
+
+
+
 Part2: 摘要資料
 
 Chapter1 單變量：
@@ -45,7 +47,6 @@ Chapter1 單變量：
 -Ko.....test
 -Wilk's test
 -卡方適配度檢定
--box plot
 
 *動差
 
@@ -57,60 +58,58 @@ Chapter1 單變量：
 
 Chapter2 雙變量：
 
-- 量化*量化：散佈圖
-  - 量化*二分
+-類別*類別:列聯表 
 
--類別*類別：列聯表 
-  -卡方獨立性、同質性檢定
-  -McNemar's test
+-類別*量化
 
--類別*量化：不同類別下的分配
-*不同類別下的平均數
-*不同類別下的boxplot
-
--量化*類別：有回歸的模型之後才能夠化不同情況下的機率圖
+-量化*(類別
 
 *相關
- *多變量對多變量：disctance correlation
+
+*散布圖
+
+Chapter3 多變量對多變量：
+
+d(corr)
 
 
 Part3: 迴歸模型：解釋與預測
 
-Chapter1 理論介紹
+Chapter1 介紹
 
-*固定效果線性模型 chapter2-6
+*固定效果線性模型
 
-*混合效果線性模型 chapter7
+*混合效果線性模型
 
-*廣義線性模型 chapter8-11
+*廣義線性模型
 
 *廣義線性混合模型
 
 *路徑分析與SEM
 
-Chpater2 單一樣本平均數分析
+Chpater2 單一樣本平均數模型
 
-Chapter3 兩樣本平均數比較
+Chapter3 兩樣本平均數模型
 
 Chapter4 單因子變異數分析模型
 
-Chapter5 簡單線性迴歸模型
+Chapter5 簡單線性迴歸
 
-Chapter6 多元線性迴歸模型
+Chapter6 多元線性迴歸
 
 Chapter7 縱貫式資料分析
 
 Chapter8 邏輯斯迴歸模型
+*補充：McNemar's test
 
-Chapter9 普瓦松迴歸模型
+Chapter9 多類別迴歸模型
+*補充：卡方獨立性、同質性檢定
 
-Chapter10 多類別迴歸模型
-
-Chapter11 次序變項迴歸模型
+Chapter10 次序變項迴歸模型
 
 
-Chapter12 非參數化迴歸模型
-Kernal regression
+Chapter11 非參數化迴歸模型
+
 
 
 Part4: 多變量資料分析
@@ -119,8 +118,8 @@ Part4: 多變量資料分析
 
 
 
-Appendix A 基礎機率論
+AppendixA 基礎機率論
 
-Appendix B 基礎線性代數
+AppendixB 基礎線性代數
 
-Appendix C 數值方法
+AppendixC 計算方法
